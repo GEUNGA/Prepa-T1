@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <title><?=$title ?></title>
-<link type="text/css" rel="stylesheet" href="../public/css/style.css">
+<link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
 <header>
 <?php
@@ -11,7 +11,8 @@ include "inc/menuIncView.php"
 </header>
 <h1> FORMULAIRE </h1>
 <form action="" method="POST"> 
-    <input name="login"> envoyer 
+    <input name="login" type="text">
+    <input type="submit" value="Envoyer>
     
 </form>
 
