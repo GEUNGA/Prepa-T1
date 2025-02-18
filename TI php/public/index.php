@@ -16,15 +16,13 @@ if(isset($_GET["p"])){
             break;
         default:
         include "../templates/erreur404View.php";
-            break;
-
     }   
-        else{
+   }   else{
             include "../templates/accueilView.php";
 
     }
 
     
-}
+
 
 ?>
