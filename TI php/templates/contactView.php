@@ -10,7 +10,10 @@ include "inc/menuIncView.php"
 ?>
 </header>
 <h1> FORMULAIRE </h1>
-<form> </form>
+<form action="" method="POST"> 
+    <input name="login"> envoyer 
+    
+</form>
 
 <?php
 include "inc/footerIncView.php"
