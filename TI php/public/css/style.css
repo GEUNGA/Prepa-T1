@@ -7,22 +7,30 @@ body{
     background-color: rgb(233, 233, 233);
     color: white;
     font-size: 50px;
+    
 }
 
 .nav-bar{
-display: block;
-background-color: rgb(1, 1, 58);
+   background-color: rgb(1, 1, 58);
+   text-align: center;
+   padding-bottom: 20px;
+   margin-bottom: 200px;
 }
+.nav{
+
+position: relative;
+display: inline-block;
+
+}
+
 .nav a{
-display:inline-block;
 text-decoration: none;
-display:inline-block;
+padding: 15px;
 color:rgb(255, 255, 255);
 font-size: 20px;
     }
-.top menu ul {
-list-style-type: none;
-}
+
+
 
 h1{
     font-size: 50px;
@@ -31,8 +39,11 @@ h1{
 }
 
 footer{
-    position: sticky;
-    margin:auto 0px;
+    position:fixed;
+    left: 0;
+    bottom:0;
+    margin: 0px auto;
+    width: 100%;
     background-color: black;
     text-align: center;
     font-size: 15px;
@@ -40,4 +51,6 @@ footer{
 
 .bienvenue{
     text-align: center;
+    color:rgb(0, 0, 0)
+    
 }
