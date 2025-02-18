@@ -1,0 +1,43 @@
+*{
+margin:0;
+padding:0;
+}
+
+body{
+    background-color: rgb(233, 233, 233);
+    color: white;
+    font-size: 50px;
+}
+
+.nav-bar{
+display: block;
+background-color: rgb(1, 1, 58);
+}
+.nav a{
+display:inline-block;
+text-decoration: none;
+display:inline-block;
+color:rgb(255, 255, 255);
+font-size: 20px;
+    }
+.top menu ul {
+list-style-type: none;
+}
+
+h1{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+footer{
+    position: sticky;
+    margin:auto 0px;
+    background-color: black;
+    text-align: center;
+    font-size: 15px;
+}
+
+.bienvenue{
+    text-align: center;
+}

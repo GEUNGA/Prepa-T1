@@ -2,12 +2,12 @@
 
 ?>
 
-<nav>
-    <ul id="top menu">
-    <li><a href="./">accueil</a></li>
-    <li><a href="./?=apropos">à propos</a></li>
-    <li><a href="./?=histoire">histoire</a></li>
-    <li><a href="./?=contact">contact</a></li>
+<nav class="nav-bar">
+    <ul>
+    <li class="nav"><a href="./">accueil</a></li>
+    <li class="nav"><a href="./?p=aboutme">à propos</a></li>
+    <li class="nav"><a href="./?p=history">histoire</a></li>
+    <li class="nav"><a href="./?p=contact">contact</a></li>
     </ul>
-    
+
 </nav>

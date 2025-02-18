@@ -5,13 +5,13 @@ if(isset($_GET["p"])){
         case "accueil":
             include "../templates/accueilView.php";
             break;
-        case "apropos":
+        case "aboutme":
             include "../templates/aproposView.php";
             break;
         case "contact":
             include "../templates/contactView.php";
             break;
-        case "histoire":
+        case "history":
             include "../templates/histoireView.php";
             break;
         default:
